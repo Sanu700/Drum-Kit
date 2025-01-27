@@ -8,7 +8,6 @@ h1 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
-
 }
 
 footer {
@@ -16,7 +15,7 @@ footer {
   font-family: sans-serif;
 }
 
-.q {
+.w {
  background-image: url("images/tom1.png");
 }
 
@@ -28,7 +27,7 @@ footer {
   background-image: url("images/tom3.png");
 }
 
-.z {
+.d {
   background-image: url("images/tom4.png");
 }
 
@@ -78,4 +77,21 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+@keyframes letterPress {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    color: #DBEDF3;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.drum.pressed {
+  animation: letterPress 0.2s ease-in-out;
 }
