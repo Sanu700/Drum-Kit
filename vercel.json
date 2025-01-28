@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "crash.mp3", "use": "@vercel/static" },
+    { "src": "crash.png", "use": "@vercel/static" },
+    { "src": "kick-bass.mp3", "use": "@vercel/static" },
+    { "src": "kick.png", "use": "@vercel/static" },
+    { "src": "snare.mp3", "use": "@vercel/static" },
+    { "src": "snare.png", "use": "@vercel/static" },
+    { "src": "tom-1.mp3", "use": "@vercel/static" },
+    { "src": "tom-2.mp3", "use": "@vercel/static" },
+    { "src": "tom-3.mp3", "use": "@vercel/static" },
+    { "src": "tom-4.mp3", "use": "@vercel/static" },
+    { "src": "tom1.png", "use": "@vercel/static" },
+    { "src": "tom2.png", "use": "@vercel/static" },
+    { "src": "tom3.png", "use": "@vercel/static" },
+    { "src": "tom4.png", "use": "@vercel/static" },
+    { "src": "drum-set.png", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
