@@ -2,6 +2,8 @@
   "version": 2,
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
+     { "src": "index.js", "use": "@vercel/static" },
+     { "src": "styles.css", "use": "@vercel/static" },
     { "src": "crash.mp3", "use": "@vercel/static" },
     { "src": "crash.png", "use": "@vercel/static" },
     { "src": "kick-bass.mp3", "use": "@vercel/static" },
