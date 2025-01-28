@@ -2,13 +2,13 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 // Preload sounds to reduce latency
 const sounds = {
-  w: new Audio("sounds/tom-1.mp3"),
-  a: new Audio("sounds/tom-2.mp3"),
-  s: new Audio("sounds/tom-3.mp3"),
-  d: new Audio("sounds/tom-4.mp3"),
-  j: new Audio("sounds/crash.mp3"),
-  k: new Audio("sounds/snare.mp3"),
-  l: new Audio("sounds/kick-bass.mp3")
+  w: new Audio("tom-1.mp3"),
+  a: new Audio("tom-2.mp3"),
+  s: new Audio("tom-3.mp3"),
+  d: new Audio("tom-4.mp3"),
+  j: new Audio("crash.mp3"),
+  k: new Audio("snare.mp3"),
+  l: new Audio("kick-bass.mp3")
 };
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
